@@ -1,0 +1,179 @@
+.header-menu{
+    background: #000;
+    position: relative;
+}
+.header-menu ul{
+    text-align: center;
+    padding: 30px 0;
+}
+.header-menu ul li{
+    display: inline-block;
+    
+}
+.header-menu ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+    transition: .4s;
+}
+.header-menu ul li a:hover{
+    background: rgb(36, 103, 129);
+    border-radius: 15px;
+}
+.header-menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 52px;
+    width: 140px;
+    background: rgb(162, 223, 10);
+    transition: .4s;
+    border-radius: 0 0 10px 10px;
+}
+.header-menu ul li{
+    position: relative;
+}
+.header-menu ul li ul li{
+    display: block;
+    margin-left: 0;
+}
+.header-menu ul li ul li a{
+    display: block;
+   
+}
+
+/*hover part*/
+.header-menu ul li ul{
+  opacity: 0;
+  visibility: hidden;
+  transform: scaley(0);
+  transform-origin: top center;
+}
+.header-menu ul li:hover ul{
+  opacity: 1;
+  visibility: visible;
+  transform: scaley(1);
+}
+.slider-section{
+    background: url(./young-mens.jpg);
+    text-align: center;
+    padding: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -16px;
+}
+.slider-section h1 {
+    background: aliceblue;
+    padding: 10px 43px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.slider-section p {
+    background: aliceblue;
+    font-weight: 600;
+}
+.slider-section button {
+    padding: 10px 28px;
+    color: aliceblue;
+    background: red;
+    border: none;
+    border-radius: 3px;
+    transition:.4s;
+}
+.slider-section button:hover{
+    background: white;
+    color: #000;
+}
+ul.a{
+    list-style-position: outside;
+    border-top: 1px;
+}
+ul.b {
+    list-style-position: inside;
+    background: rgb(235 243 249);
+    padding: 25px;
+}
+form {
+    background: rgb(208 217 208 / 28%);
+    padding: 30px;
+    text-align: center;
+}
+input[type=email] {
+    padding: 9px 211px;
+    border-bottom: 2px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+input[type=submit]{
+    background: red;
+    padding: 9px 35px;
+    margin-left: -4px;
+    border-top: none;
+    border-color: red;
+    font-weight: bold;
+    transition: .4s;
+}
+input[type=submit]:hover{
+    background:black;
+    color: white;
+}
+.list-style {
+    position: relative;
+    height: 229px;
+    border: 2px dotted #d6c0c0;
+}
+.list1{
+    list-style-type: lower-roman;
+    position: absolute;
+    left: 140px;
+}
+.list2{
+    list-style-type: disc;
+    position: absolute;
+    right: 414px;
+}
+.list3{
+    list-style-type: lower-greek;
+    position: absolute;
+    right: 100px;
+   
+}
+.footer{
+    text-align: center;
+    background: #000;
+    color: aliceblue;
+    padding-top: 10px;
+}
+.social-menu{}
+.social-menu ul{
+    text-align: center;
+}
+.social-menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 30px;
+    background: blueviolet;
+    width: 18px;
+    padding: 13px;
+    border-radius: 50%;
+}
+.header-menu button{
+    position: absolute;
+    padding: 10px 35px;
+    border-radius: 10px;
+    color: aliceblue;
+    right: 25px;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    bottom: 20px;
+    box-shadow: 2px 2px 7px 2px cornflowerblue;
+    border: none;
+    text-decoration: none;
+    transition: .5s;
+}
+.header-menu button:hover{
+    background: rgb(72, 177, 118);
+    color: white;
+}
+    
